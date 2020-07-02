@@ -1,0 +1,56 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Project:    Real Estate
+Version:    1.0
+Last change:    02.08.2017
+Primary use:    Real Estate Template  
+-------------------------------------------------------------------
+
+[Table of contents]
+1. Body / body
+2. Navbar / .navbar
+3. Header / .header.carousel
+4. logo scroll/ .owl-carousel
+5. About / #about
+6. Services / #services
+7. Our work / #our-work
+8. Counter / .counter
+9. Team / #Team
+10.Testimonial / #testimonial
+11.Our-blogs / #our-blogs
+11.contact-us / #contact-us
+
+-------------------------------------------------------------------
+	
+/*googlefonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,500,500i,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,800,600');
+/*googlefonts*/
+
+/* Page css */
+@import url('bootstrap.min.css');
+@import url('basic.css');
+@import url('style.css');
+/* Page css */
+
+/* Owl Stylesheets  */
+@import url('owlcarousel/owl.carousel.min.css');
+@import url('owlcarousel/carousel2.css');
+@import url('owlcarousel/owl.carousel.min2.css');
+@import url('owlcarousel/owl.theme.default.min.css');
+
+@import url('animate.css');  
+@import url('../js/range/bootstrap-slider.css');  
+
+/* Font Icons  */
+@import url('font-awesome.css'); 
+@import "../fonts/simple-line-icons/css/simple-line-icons.css";
+@import "../fonts/themify-icons/themify-icons.css";
+@import "../fonts/material-design-iconic-font/css/materialdesignicons.min.css";
+
+
+@import url('responsive.css'); 
+ 
+ 
+.pro-type li::before{content:'\f0da'; font-family: 'FontAwesome'; margin-right:10px; color:#004dda;}

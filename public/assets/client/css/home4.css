@@ -1,0 +1,54 @@
+#about h4:after { width:auto!important}
+
+#fade-quote-carousel .carousel-indicators {
+justify-content:initial!important; text-align:center!important; width:100%!important}
+#fade-quote-carousel .carousel-indicators li { display:inline-block!important}
+.popular { padding:50px 0 40px 0; background:#fcfcfc}
+
+.carousel-indicators {display:inherit!important;}
+
+
+/* Opacity #2 */
+.hover12 figure {background: #031e45; margin:0; text-align:center; overflow:hidden; border-radius:8px; margin:0; padding:0; position:relative}
+.hover12 figure img {
+opacity: 1;
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out; width:100%;}
+.hover12 figure:hover img {opacity: .5;}
+.hoverdiv {color:#fff!important; cursor:pointer}
+.hoverdiv .div-in p { color:#fff!important;font-size:.9em!important; line-height:18px!important}
+.hover12:hover .hoverdiv {color:#fff; opacity:1!important}
+.view-detail {display:inline-block!important; margin:20px 0 0 0}
+.view-detail {width:120px!important; font-size:11px!important;}
+
+
+
+@media(max-width:1280px){
+.search-div { min-height:500px; padding:5% 0 0 0!important;}
+}
+
+
+
+@media(max-width:1025px){
+.slick-prev {display:none!important}
+.slick-next {display:none!important}
+.popular { padding:50px 0 10px 0; } 
+}
+
+
+@media(max-width:768px){
+.search-div h1 {font-size:30px}
+.search-div h3 { font-size:20px}
+.hoverdiv .div-in p { font-size:12px!important; line-height:18px!important}
+}
+
+@media (max-width: 480px){
+#explore {margin:0!important;padding:20px 0 10px!important;}
+.clients-review {padding: 20px 0 0 0;}
+}
+
+@media (max-width:360px){.search-div h1 {font-size:28px!important;}}
+
+
+
+

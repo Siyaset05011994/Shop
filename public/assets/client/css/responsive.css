@@ -1,0 +1,887 @@
+.table-c td:nth-child(2){text-align:center}
+
+@media(max-width:1500px){
+#carouselExampleIndicators .carousel-control-next, #carouselExampleIndicators .carousel-control-prev{display:none!important;}
+.inspiring-section-bg{width:56%}
+}
+
+@media(min-width:1281px){
+.owl-prev {left:-60px;}
+.owl-next {right:-60px;}
+.pl-4-2 {padding-left: 1.5rem!important;}
+.pl-4-3 {padding-right:1.5rem!important;}
+}
+
+@media(max-width:1280px){
+.search-div { min-height:500px; padding:15% 0 0 0;}
+
+/*properties*/
+.properties-name { padding:15px 3px 2px 3px}
+.properties-name h3{ padding:0 0 0 10px; font-size:.9em}
+.properties-name h6 {padding:0 0 0 10px;}
+.properties-name p { padding:0 0 0 10px}
+/*properties*/
+
+/*agents-details*/
+
+.three-box .col-md-4 h4 { font-size:13px!important;}
+.three-box  .bg-white { min-height:190px}
+
+/*home-2-form*/
+.home-2-form {max-width:95%;}
+/*.carousel-item { height:590px}*/
+.home-2-form { top:23%}
+.video-bg h2 { font-size:25px}
+.video-bg img {margin:0 1%; width:80px}
+/*home-2-form*/
+
+.test-h {margin:28px 0 0 0}
+
+blockquote { line-height:30px;}
+.navbar-expand-lg .navbar-nav .nav-link {padding:5px 0}
+
+}
+
+@media(max-width:1191px){
+	
+/*nav-link*/	
+.navbar-nav .nav-link {padding-right:15px;padding-left: 15px;}
+/*nav-link*/
+/*footer*/
+.reach-us { font-size:12px}
+.links-footer li { font-size:12px;}
+.logo-text-ctr p { font-size:13px;}
+.copy-right { font-size:12px}
+/*footer*/
+
+/*text*/
+.text-1 { padding-right:0}
+.see-locat { width:100%;}
+.text-1 p { font-size:11px;}
+/*text*/
+
+/*inner-banner*/
+#inner-banner h1 {font-size:2.4em}
+#inner-banner { height:300px}
+.breadcrumb { padding:10px}
+/*inner-banner*/
+
+.pro-type { margin:45px 0 0 0}
+
+.rcnt-itm > h5 { font-size:12px;}
+.rcnt-itm > p { font-size:10px;}	
+.submit-bt {margin-bottom:30px;}
+
+	
+	
+.form li  { width:25%;}
+.nav > li > a { padding:10px 14px}
+.navbar-custom { font-size:12px}
+.div-in { padding:10px 0 0 10px}
+
+.div-in p { font-size:11px;}
+.gallery-div h3 {font-size:.9em}
+.text-sp {padding:0 5px}
+.sq-fit { font-size:15px;}
+
+
+.box-boder { font-size:50px;}
+.text-css h3 { font-size:1em;}
+.text-css p {margin:0 0 30px}
+ 
+.text-css-div h3 {font-size:14px;}
+.img-l-div {margin: 0 10px 0 0;}
+.img-l-div img{ width:100%;}
+.img-hover-div { height:auto}
+.img-l-div { width:80px;}
+.blog-img-l { margin:27px 0 0 25px}
+.text-r-div h3 { font-size:14px;}
+.text-r-div p { font-size:12px;}
+.text-css-div p { font-size:13px}
+.tw-text2 { font-size:16px;}
+.hove-text { padding:10px;}
+.hove-text h2 { font-size:13px;}
+.hove-text h3 { font-size:13px;}
+.hove-text p { font-size:13px; line-height:18px;}
+ 
+.details { display:none;}
+#about-page {padding:50px 0 44px 0}
+
+#service{margin:100px 0 0 0}
+.our-core-features { padding:20% 0 0 0}
+.srv-inf6 {padding:30px;}
+.srv-inf6 h2 {font-size:1.5em;}
+.learn { font-size:.9em}
+.our-core-features h3 { margin:0 0 15px 0}
+
+
+
+.page-not-found { padding:50px 0 50px 0}
+
+figure.effect-oscar figcaption { padding:.5em}
+
+figure.effect-oscar figcaption::before {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    border: 1px solid #fff;
+    content: ''; margin:0;
+}
+
+.box-bg { padding:20px}
+.box-bg p { font-size:1em}
+ 
+ 
+/* home-2*/
+.head-text { font-size:12px;}
+.top-email {font-size:12px;}
+.home-2-form { max-width: 1105px; margin: 0 auto; padding:0 15px}
+/* home-2*/
+ 
+.home-search {font-size:14px;}
+.navbar-brand img { width:180px}
+#profileForm .font-12 { font-size:11px!important}
+
+.testimonial2 { min-height:auto; padding:30px 0 20px 0}
+.box-modern {padding:15px}
+.icon-text2 h3 { font-size:18px!important}
+
+figure.effect-chico h2 {padding:70px 0 20px 0;}
+.properties-name p {font-size:12px;}
+
+}
+
+
+@media(max-width:1024px){  
+.cover {min-height:450px;}
+.css-icon li { margin:0 4px 0 0}
+.related h5 {font-size:12px;}
+.related p {font-size:11px; margin:0 0 8px 0}
+.operpty-type li { width:48%; line-height:18px;   text-transform: lowercase;
+font-size: 11px;}
+.css-icon li {font-size:11px;}
+.list-detail .font-13 {font-size:11px;}
+.list-detail h3 {font-size:1.2em;}
+.properties-img img { object-fit:cover; height:100%; width:100%;}
+
+body {padding:116px 0 0 0 }
+
+}
+
+@media(max-width:991px){ 
+.featured-1 { display:none}
+.featured-2 { display:block}
+.read-link { padding:5px 5px}
+
+.properties-name p{margin-bottom:5px}
+#navbarResponsive{background:#fff;}
+
+.fixed-top {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.bio-text { line-height:25px;}
+.three-box .font-15 { font-size:13px;}
+.agent-details .pa-30 { padding:0 15px!important}
+.socialmediaicons {display: inline-block;margin: 0;}
+.socialmediaicons2 {margin: 10px 0 0 0;} 
+
+/*search-home*/
+.search-home ul { margin:0 0 20px 0}
+.search-home li a { font-size:12px}
+.search-home {padding:50px 0;}
+/*search-home*/
+
+/*client*/
+blockquote { font-size:1.2em}
+/*client*/
+
+/*see-loc*/
+.see-locat { width:100%; float:none; margin:0 -15px;}
+.owl-theme .owl-nav [class*=owl-] {width:35px;height:35px; line-height:35px;}
+/*see-loc*/
+
+/*footer*/
+.links-footer li { line-height:20px; padding:0 3px 0 0; font-size:11px;}
+.links-footer ul { width:100%; min-height:inherit}
+.social-network { padding:8px 0 8px 0}
+.reach-us p img {padding:0 10px 5px 0;}
+.footer-top {min-height:100px;}
+.logo-text-ctr p {line-height:20px;}
+.footer-center h3 {font-size:16px; padding:0 0 10px 0;}
+.copy-right {font-size:11px; padding:10px 0 10px 0}
+#topcontrol img {width:36px!important; height:34px!important;}
+.navbar-nav .nav-link { font-weight:normal}
+/*footer*/
+
+.navbar-brand img {width:150px}
+.navbar-shrink .navbar-brand img {width:150px}
+
+body { padding:0} 
+
+.nav-item { margin-bottom:5px}
+.dropdown-item {padding:0.5rem 1rem}
+
+.rcnt-itm { margin-bottom:40px}
+
+/*Our Team*/
+.team-name { padding:30px 15px 15px 15px}
+.team-name h3 {font-size:0.9em; margin:0 0 10px 0}
+/*Our Team*/
+
+#inner-banner { height:240px}
+.srv-inf6 { max-width:510px}
+.text-css p { font-size:.9em; line-height:23px}
+.our-core-features p {font-size:.9em; line-height:30px}
+
+/*about*/
+.about-text h3 { font-size:1.8em} 
+.about-text p { font-size:.9em; line-height:25px;}
+.icon-text p { font-size:.9em; line-height:25px;}
+.partners a { display:block}
+.owl-carousel .owl-item img { vertical-align:middle}
+/*about*/
+
+/*blog*/
+.recent-text {
+font-size: 0.8em;
+line-height:18px;}
+.recent-text a br{display:none}
+/*blog*/
+#subscribe-now .form-group .form-control { width:280px}
+#subscribe-now h4 { font-size:1.1em}	
+#filters li span {padding:8px 15px}
+.list-text h4 { font-size:.8em}
+.list-text ul { margin:0 0 0 -5px}
+.list-text li a { margin:0 5px 0 5px}
+#filters { margin:0 0 10px 0}
+
+.blog-single h2 { font-size:1.3em}
+.right-date h3 {font-size:0.9em}
+.admin h3 {font-size:0.9em}
+.right-date span { font-size:12px;}
+
+.related-posts h2, .comments h3 {
+margin:15px 0 20px 0;
+padding:30px 0 15px 0; font-size:1.4em;}
+/*blog*/
+
+.listing-div { padding:0;}
+.hover-div { padding:5px;}
+.mCSB_inside > .mCSB_container {margin-right:0;}
+.result-title h4 { font-size:0.8em}
+
+.faq-bg {background: url(../images/page/faq.jpg) no-repeat top center;height: 350px!important;}
+.faq-box { padding:15px;}
+
+
+.contact-left { text-align:center}
+.top-100 {margin:50px 0 0 0;}
+
+.contact-left h5 {font-size:1.125em;margin: 15px 0 10px 0;padding:0;}
+.send-message { margin-bottom:40px}
+
+.icon-list a { margin:0 1px}
+.result-list { font-size:12px;}
+.result-list .form-control {font-size: .9rem;}
+
+.filter2 { margin-bottom:30px;}
+.result-text { margin-top:20px; margin-bottom:20px;}
+.icon-list2 ul { margin: 0 0 0}
+.login-with{margin-bottom:15px; letter-spacing:0}
+.icon-list2 li {
+    color: #000;
+    list-style: none;
+    line-height: 25px;
+    background: url(../images/page/check-icon.jpg) no-repeat left 6px;
+    padding: 0 0 0 28px;
+    font-size: 0.9em;
+}
+#myTable th:nth-child(1), #myTable th:nth-child(4){display:none}
+#myTable td:nth-child(1), #myTable td:nth-child(4){display:none}
+.icon-text2 h3 { font-size:16px}
+
+/*home2*/
+.mobile-n { display:none}
+.nav-1 { display:block}
+.home-2-form { position:relative; margin-top:15px}
+.icon-bg2 { margin:27px auto 15px auto}
+.form-right { margin:8px} 
+.form-left h3 {font-size: 24px;margin: 15px 0 15px 0;}
+/*home2*/
+
+#testimonial {padding:50px 0; min-height:inherit}
+
+
+/*property-details*/
+ .mortgage h4 {font-size:14px}
+ .related h5 {font-size:12px}
+ .related h6 {font-size:15px}
+ .agent-text h5 { font-size:15px}
+ .agent-text p { font-size:13px} 
+/*property-details*/
+
+/*add-property*/
+.list-div .font-12 { font-size:11px!important}
+#myTable td { padding:15px 10px}
+.checkbox-css { margin:15px 0 0 0;}
+/*add-property*/
+
+
+/*my-packages*/
+.pricing .card-price {font-size:2em;}
+.pricing .card-body { padding:0}
+.pricing .card-title { font-size:16px}
+.pricing .btn { font-size:11px; padding:.8rem .5rem}
+.pricing .mb-5 {margin-bottom:1rem!important;}
+#myTab { margin:0;}
+/*my-packages*/
+
+.rate-no {padding:10px 10px 0}
+.rate-no span {  font-weight:600}
+.sq li i { font-size:12px;}
+.sq li { font-size:11px;}
+.faq-box p{font-size:13px; line-height:20px}
+.sq li i{margin-right:2px}
+.social-media2 a {margin: 0 5px 0 5px;font-size:15px;}
+.agent-list p {font-size:13px;}
+.agent-list i {margin: 0 4px 0 0;}
+
+
+.home-one .navbar-toggler {top:45px;}
+.home-one .search-top {width:49px}
+
+.reach-us p {font-size: 12px;}
+.property img {object-fit:cover;height:100%;width:100%;}
+.div-n { display:none}
+.img-pro { height:auto}
+
+#carouselExampleIndicators .carousel-item {height:460px;min-height: 300px}
+
+}
+
+@media(max-width:800px){
+.mobile-mt-20{margin-top:20px}
+.srv-inf6 p{margin-bottom:15px}
+.selling-agent h2, .general-amenities{margin-top:20px}
+.agent-text{margin-bottom:15px}
+.team-name h3 {margin: 0 0 5px 0;}
+.team-name p{margin-bottom:0}
+.social-2{margin-top:10px}
+.mobile-top-20{margin-top:20px}
+.agent-social {padding-bottom:20px}
+.about-text h5{margin-bottom:10px}
+.owl-carouse2 .owl-item{padding-top:20px}
+.srv-inf6 h2{margin-bottom:5px}
+.srv-inf6{    -webkit-transform: translateY(0%);
+
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);}
+.list-div .font-12 { font-size:11px!important}
+#myTable td {padding:15px 5px}
+#myTable th {padding:15px 5px}
+.checkbox-css { margin:0;}
+.img-css { float:left;}
+#myTab li {margin:0 0 20px 0;padding: 0;display:inline-table;}
+#fade-quote-carousel .carousel-indicators {bottom:-15px;}
+.socialmediaicons2 a { width:auto; padding:0 15px; margin:0 0 5px 0; font-size:12px!important}
+
+.executive {font-size:11px;}
+
+.css-icon { margin:0 0 2px 0}
+.operpty-type {margin:0 0 2px 0}
+
+#filters li span {padding: 8px 8px;}
+.list-text h4 { margin:0 0 5px 0}
+.list-text li { margin:0 0 5px 0}
+
+.category { padding:30px 0px 20px}
+
+}
+
+@media(max-width:767px){ 
+.blog-2 { display:none}
+.blog-1 { display:block}
+.social-media-top {display:none} 
+.has-mega-menu .container-sm {width:100%;}
+/*.carousel-item { height:220px}
+.srv-inf6{-webkit-transform: translateY(0%); -ms-transform: translateY(0%); -o-transform: translateY(0%); transform: translateY(0%);}*/
+.check-list{margin-top:0!important}
+.page-not-found{padding:25px}
+.page-not-found h3{margin: 0 0 15px 0; font-size: 2.8em;}
+.page-not-found h2 { font-size:1.3em;}
+.page-not-found h5 { font-size:1.1em; line-height:25px; margin-bottom:15px}
+.page-not-found .input-group{margin-bottom:0.5rem!important}
+.faq-box h2{    margin: 10px 0;}
+.faq-box{padding-top:20px}
+.your-question, .faq-acc{padding:30px 0}
+.faq-acc h2{margin-bottom:15px}
+.your-question p{    font-size: 13px;}
+.your-question p,.your-question h2{margin-bottom:10px}
+.page-not-found h6{margin-bottom:15px}
+.page-not-found .form-control{width:100%;     border-radius: 100px!important;}
+.page-not-found .input-group-append{width:100%; margin-top:5px}
+
+.page-not-found .search-bt{width:100%;     border-radius: 100px!important; padding:13px 15px}
+
+
+.navbar-nav .nav-link{color:#000!important;}
+.navbar-nav .nav-link.login {color: #fff!important;}
+.our-core-features p{margin-bottom:10px; line-height:25px; letter-spacing: -0.1px;}
+.team-img .col-6 {padding:0 10px}
+.team-name {padding:30px 5px 15px}
+.team-name p i{font-size:14px}
+.inspiring-section-bg{position:relative; margin-bottom: 40px; -webkit-clip-path: inherit; clip-path: inherit; height:250px; width:100%}
+.inspiring-by {margin-top: 28px;}
+.inspiring-section{padding:0 0px 50px}
+.inspiring-section-bg img{position:absolute; right: 0; bottom: 0;}
+.box-bg{padding-top:40px}
+.search-home ul{margin-bottom:0}
+.home-3-form{width:100%; right:0; position:relative; border-radius:0;}
+.search-div h1 {font-size:40.93px}
+#map{height:350px!important}
+.links-footer ul { width:50%}
+.social-network { margin:0 0 20px 0}
+.xs-50{display:none}
+.filter2{margin-bottom:15px}
+.font-16.text-uppercase.font-bold.mt-40.mb-20{margin-top:20px!important}
+.home-2-form .form-right{padding:10px 25px 20px}
+.footer-in { padding:20px 0}
+.footer-top { min-height:50px}
+.search-home {padding:30px 0 20px 0; margin-bottom:0!important}
+.search-div h3 { margin:0 0 15px 0; font-size:1.3em}
+.rcnt-itm > p {font-size:12px}
+#inner-banner {height:240px;}
+.owl-carouse2 { margin:20px 0 0 0}
+.about-text { text-align:center} 
+.srv-inf6 { position:relative; margin:0 auto; top:160px; width:100%;border:solid 3px #1163bf; -webkit-box-shadow:0 0 0 #1163bf;
+-ms-box-shadow:0 0 0 #1163bf;
+-o-box-shadow: 0 0 0 #1163bf;
+box-shadow: 0 0 0 #1163bf; max-width:100%;}
+.Right h4{margin-bottom:15px!important}
+.result-text{margin-bottom:0}
+.icon-list a{margin:0 5px}
+.list-detail{margin:15px 0 0 0}
+.filter2{margin-top:5px}
+.inputcss {height:40px}
+.form-group {
+    margin-bottom: 0.5rem;
+}
+#about-page, #subscribe-now, #explore, #about, #our-partners,#testimonial,#most-recent, #newest, #home-services,#inner-page{padding:30px 0!important}
+.list-text p{margin-bottom:10px}
+.list-text h4{font-size:1em;  margin-bottom:5px}
+.blog-single h2{margin-bottom:17px}
+
+#properties h2 {font-size: 1.1em;margin-bottom:40px}
+.see-locat{text-align:left}
+.box-boder2{padding:15px 0 10px 0}
+.quote{position:absolute}
+
+
+#about h2{line-height:20px; margin-bottom:10px}
+#about h3{margin-bottom:10px}
+#about h4{margin-bottom:25px}
+#about p{margin-bottom:10px}
+#carouselExampleIndicators .carousel-item {height:240px}
+.gallery-div h3{margin-top:15px}
+.div-in{padding-top:40px}
+.text-css p { text-align:center}
+.text-css h3 { text-align:center}
+.our-core-features { text-align:center; padding:5% 0 0% 0; border-bottom:solid 1px #e3e3e4; border-top:solid 1px #e3e3e4; margin:5% 0 0 0}
+.house-img img { max-width:300px;}
+.house-img { margin:0;}
+.icon-div2 {display:none}
+.properties-name h3{margin-bottom:5px}
+.icon-div {display:block; text-align:center}
+#service {margin:30px 0 0 0;}
+.left-div{margin:30px 0 0 0;}
+.text-css p{margin-bottom:15px}
+.contact-left p{margin-bottom:0px}
+.contact-left h5{margin-top:5px}
+#subscribe-now h4 {font-size:1.1em; margin-bottom:10px; line-height:25px; margin-top:15px}
+
+.page-heading2{margin-bottom:10px!important}
+.list-text h4 { margin:10px 0 10px 0;}
+.blog-right h4 { margin:10px 0 10px 0}
+#inner-banner h1{padding-top:10%!important}
+.pro-div.mb-30{margin-bottom:10px!important}
+.right-date { text-align:center}
+.right-date h3 { margin:10px 0 10px 0}
+.admin { text-align:center}
+.admin-img { float:none; display:inline-block; margin:0;} 
+.admin h3 { float:none; border-bottom:solid 1px #ccc; margin-bottom:10px; display:block; padding:0px 0 15px 0}
+.right-date h3{margin-bottom:5px}
+.img-holder{margin-top:15px!important}
+.related-posts h2 {margin-top:0; padding-top:20px}
+.agent-name h4{margin-bottom:5px!important}
+.agent-social, .comments .text-center {text-align:left!important}
+.icon-list { text-align:center}
+
+.result-list { font-size:13px;}
+
+.login-bt { width:100%;}
+.social-links-edit .col-md-2{    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;}
+
+.social-links-edit .col-md-10	{     -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;}
+	
+	
+
+.list-div .font-12 {font-size: 12px!important;}
+
+.list-div  .form-control { margin:5px 0 0 0}
+.social-links-edit  .form-control { margin:0 0 0 0}
+.in-box h4{margin-bottom:15px}
+.pricing .card{padding:15px 15px 0}
+.pricing .btn{margin-bottom:20px}
+.pricing hr {margin: 1rem 0;}
+.package h2 {margin: 0 0 10px 0;} 
+
+
+.best-property {padding: 50px 0 0 0;}
+.filter2 { font-size:14px}
+
+
+.video-bg h2 { font-size:30px}
+.home-search { margin:0 0 10px 0}
+
+#newest {background:#f9f9f9;}
+.properties-name{margin-bottom:15px}
+#newest h2 { margin:0 0 40px 0}
+#most-recent h2, #newest h2 { font-size:20px!important}
+#testimonial h2{margin-bottom:35px!important}
+.footer-top{display:none}
+.form-right { padding:20px}
+.home-3-form .form-right {padding:0 25px; overflow:hidden}
+.box-bg p { line-height:23px}
+  
+/*add-property*/
+/*add-property*/
+
+.div-center { float:none; margin:0 auto;}
+.social-media2 li + li::before { margin:0 8px;}
+.social-media2 a {font-size: 20px;}
+.content { height:530px!important}
+.rate-css{float:left}
+.stars{float:right;}
+.row.m-0.boder-t-b{border:0 none}
+#sync2{margin-bottom:15px}
+.listing h3{margin-bottom:5px}
+.listing-icon ul{margin:0 -10px}
+.recent-post{padding-top:0!important}
+.listing-icon ul{}
+
+.icon-bg2 { margin:0 auto 15px auto!important}
+.icon-text2 h3{margin-bottom:0;}
+.box-bg p{margin-bottom:10px}
+
+.gallery-div h3 { font-size:1em}
+
+.gallery-div ul li {margin:0 10px 0 0;font-size: 12px;}
+
+.find-your-property .col-md-2 {    margin-bottom:0.5rem!important;}
+
+.find-your-property { margin:0 -5px 20px -5px!important;}
+
+.agent-text2 p { margin:20px 0 0 0}
+.agent-name { text-align:center; margin:10px 0 0 0}
+
+.media3 { text-align: center; margin-bottom:15px}
+.agent-list{margin-top:15px; text-align:center}
+.properry-main .properties-name h3{margin-bottom:8px}
+.pagination{margin-bottom:0}
+.listing-icon ul{padding:5px 0}
+.property-text h2{margin-top:20px}
+
+.properry-main .properties-name p{margin-bottom:15px}
+
+.operpty-type li {width:100%;}
+.box-modern { margin-bottom:15px;}
+
+
+
+
+}
+
+@media(max-width:640px){
+#inner-banner {height:200px;}
+#inner-banner h1 { font-size:1.8em}
+.breadcrumb li { font-size:.7em}
+.grid figure p {font-size:50%}
+.for-sale {right: 5px}
+.hot-offre2 { right:110px} 
+.package .font-22 {font-size:18px!important;} 
+#myTab li a { margin:0 5px 0 0; float:left; text-align:center}
+#myTab li i { font-size:18px;}
+
+}
+
+@media(max-width:575px)
+{
+#back-countdiown li p{font-weight:400}
+.team-name p, .executive {font-size:11px}
+.social-2 li{margin:0 5px 0 0}
+
+.pricing .fa-ul { min-height:inherit!important}
+.bg-price {padding:5px 0 5px 0;}
+.pricing hr{margin:0.6em 0 0.7em}
+.hidden-xs {display:none!important}
+#myTab  { text-align:center}
+#myTab li i {margin:0}
+#myTab li .mr-5 {margin:0!important}
+#myTab li a { padding:0!important; width:45px; height:45px; line-height:45px; display:block}
+}
+
+@media(max-width:480px){
+    
+.gallery-div h3 {font-size: 11px;}
+.text-b {line-height:30px;font-size:11px; padding:0}
+.nav-tabs .nav-link { width:100px; font-size:13px; padding:10px 0 10px 0}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {background-size:18px}
+.search-css { padding:5px 10px; font-size:12px}
+.form-control-borderless { padding:5px 15px; font-size:13px}
+.search-css {height:35px;}
+.faq-search .fa { margin:0; padding:0;}
+/*about*/
+#about h4 { font-size:1.5em}
+#about h2, #about p { font-size:.9em}
+#about h3 br {display:none}
+#about h3 {font-size:1em}
+/*about*/
+
+
+/*search*/
+.search-home h2{margin-bottom:25px}
+.search-div { min-height:inherit}
+.cover {min-height:280px;}
+.search-div h3 {font-size: 1.1em;}
+/*search*/
+.photo {border:0; right:0; top:0; bottom:0;}
+.photo-boder { margin-bottom:25px}
+#fade-quote-carousel .carousel-indicators li { margin:0 5px}
+#fade-quote-carousel .carousel-indicators {justify-content:center;}
+.clients-review {background: #f1f1f1;padding:40px 0 50px 0;}
+.links-footer { margin-bottom:20px; display:inline-block; width:100%}
+.reach-us p {margin:0 0 10px 0}
+
+/*properties*/
+#properties {padding:50px 0 50px 0}
+#inner-banner {height:170px;}
+/*properties*/
+
+/*explore*/
+#explore {margin:0 !important; padding:20px 0 30px!important}
+#explore h2 {font-size:1.2em;}
+/*explore*/
+
+#properties h2 { font-size:1.5em}
+.see-locat  { margin:0 auto 5px auto; font-size:.9em}
+.footer-center h3 {font-size: 16px;padding: 10px 0 10px 0; border-top: solid 1px #2d3a60; border-bottom:solid 1px #2d3a60; margin-bottom:15px}
+.social-network { border:0;}
+.sq ul { line-height:15px}
+#our-partners h2 { margin:0 0 30px 0}
+
+
+.srv-inf6 { top:180px; padding:20px}
+#subscribe-now .form-group .form-control { margin:0 0 10px 0; border-radius:0}
+.signup {border-radius:0; padding:9px 55px 9px 25px;}
+#subscribe-now .form-group .form-control {width:230px;}
+.card-title .fa { display:none}
+.your-question h2 { font-size:1.3em}
+.page-heading{font-size:20px}
+.terms-text p{font-size:0.9em; line-height:24px}
+.keep-me a{display:block; margin:10px 0 0 -25px}
+.socialmediaicons2{display:block}
+.socialmediaicons2 i{margin:0 !important}
+hr.mt-30.mb-30{margin:15px 0!important }
+#inner-page p.mb-30 {margin-bottom: 15px!important}
+.your-question { padding:40px 0}
+.faq-bg {height:270px!important}
+
+.faq-box-bg { padding:30px 0}
+.faq-box { min-height:inherit}
+.card-header {padding:.75rem .5rem;}
+.form-group .mb-5 {margin-bottom: 0.5rem!important;}
+.iframe-css{height:400px}
+.contact-left { padding:40px 0 0 0}
+.signup {background-size:40px;}
+.signup:hover {background-size:40px;}
+
+.grid figure {margin-bottom:15px;}
+.search-r { text-align:center}  
+.video-bg { padding:50px 0 0 0; min-height:350px}
+.video-bg h2 {font-size:22px;}
+.navbar-toggler {top:6px;}
+
+.div-in p {font-size:11px; line-height:18px;} 
+.div-in a {color:#fff;margin: 5px 0 0 0;}
+.gallery-div ul li {margin:0 8px 0 0}
+.property-icon { top:30%}
+.property-icon h5 { font-size:16px;}
+.property-icon img { width:45px;}
+.message { height:80px;}
+.search-div h1 {font-size:26px;}
+.search-div { padding:11% 0 0 0}
+
+#myTab { margin:0;}
+#myTab li a { font-size:11px;}
+ 
+#myTable { max-width:550px!important;} 
+.table-box { border:0; padding:0;}
+#myTable td { padding:10px 5px}
+#myTable .font-14  {font-size:12px!important;}
+.amazingslider-nav-1 {top:70%!important;}
+.top { font-size:12px;}
+.price2 {width:100%; padding:0 20px; left:0;}
+.price2 h3 { font-size:14px;}
+.reach-us p { font-size:12px;}
+.reach-us p i {margin:0 10px 0 0}
+.social-media-top { display:none!important}
+.best-property h5 { font-size:13px;}
+.terms-text h2 {font-size:1.12em; margin-bottom:5px}
+.properties-name p {font-size:11px;color: #000000;}
+
+.box-modern::before { display:none}
+
+}
+
+
+
+@media(max-width:414px){
+.property-icon { top:25%}
+.property-icon img { width:45px;}
+.div-in p {font-size:13px; line-height:25px;}  
+/*gallery*/	
+.pro-div .col-6, .pro .col-6 {max-width:100%c}
+.pro-div .col-6, .pro .col-6 {-ms-flex: 0 0 100%!important;flex: 0 0 100%!important;max-width:100%!important;} 
+.grid figure p {
+    font-size: 70%;
+}
+/*gallery*/
+.search-div h3 { font-size:1em}
+.cover {min-height:240px}
+.nav-tabs .nav-link {width:80px}
+#explore h2 {font-size:1em; margin:0 0 20px 0}
+#about h2 { font-size:.8em}
+.blogs-details #filters { margin:0 auto 5px auto;}
+.blogs-details #filters li span {
+    padding: 6px 5px;
+    font-size: 11px;
+}
+
+/*properties*/
+#properties {padding:30px 0 30px 0;}
+#inner-banner {height:150px;}
+#inner-banner h1 {font-size:1.6em; margin:0 0 10px 0; padding-top:40px}
+.mortgage h4 {padding: 0 0 10px 0; margin: 0 0 15px 0;}
+.rcnt-itm {margin-bottom: 30px;}
+.copy-right { padding:10px 10px 10px 10px; line-height:18px;}
+.pro-div  {width:100%; margin:0 auto}
+/*properties*/
+
+
+
+.srv-inf6 { top:0; padding:20px 15px}
+#filters li span {padding:6px 10px; font-size:12px}
+.faq-acc h2 { font-size:1.3em} 
+ 
+
+.login-text { font-size:15px;}
+.login-with {font-size:12px!important;}
+
+
+figure.effect-oscar figcaption { padding:3em}
+
+figure.effect-oscar figcaption::before {
+position: absolute;
+top:20px;
+right:20px;
+bottom:20px;
+left:20px;
+border: 1px solid #fff;
+content: ''; margin:0;
+}
+
+.video-bg {
+padding: 50px 0 0 0;
+min-height: 300px;
+}
+.video-bg h2 { font-size:18px; padding:0 15px}
+.top-bg { font-size:12px;}
+
+#testimonial {padding:20px 0; min-height:inherit}
+
+/*.amazingslider-nav-1 {
+top: 60%!important;
+}
+*/
+.amazingslider-nav-1 {
+top: auto !important;
+margin-top:0px!important
+}
+#amazingslider-wrapper-1{padding-bottom:85px}
+
+
+.card-title {line-height:20px; font-size:1em;}
+.accordion .card-header:after { display:none}
+
+.owlCarousel-logo .owl-item img  {height:60px;}
+.page-heading:after {margin:7px auto 10px auto}
+
+}
+
+@media(max-width:375px){
+.search-div {padding: 7% 0 0 0;}
+.agent-image-list { width:100%}
+.agent-text { display:block; width:100%;}
+.agent-image-list img { width:200px;}
+.agent-image-list { display:inline-block!important}
+.agent-text h3 small { padding:5px 0;}
+.agent-text h3 { text-align:center}
+.agent-email, .agent-web, .agent-phone {font-size:12px; margin:5px 0 5px; text-align:center;}
+
+}
+
+
+@media(max-width:360px){
+.search-div h3 {font-size:13px;}
+.cover {min-height:210px;} 
+.pro-div  {width:100%;}
+.pro-div .col-6 { padding:0}
+#inner-banner h1 { font-size:1.4em}
+.breadcrumb {padding:5px}
+.team-img .col-6{ width:100%; -ms-flex: 0 0 100%;flex: 0 0 100%;max-width:100%;}
+.box-div-img { width:85%; margin:0 auto} 
+.executive { left:0; right:0; margin:0 auto} 
+.srv-inf6 { top:210px; padding:20px}
+.srv-inf6 h2 { font-size:1.3em}
+.signup {font-size:14px;}
+#subscribe-now .form-group .form-control { font-size:12px; margin:0 0 10px 0}
+.faq-bg {height:230px!important;}
+.your-question h2 {font-size:1.111em;}
+
+.amazingslider-nav-1 {top:55%!important;}
+.form-left h3 {font-size:19px;}
+} 
+
+@media(max-width:320px){
+.search-css { font-size:10px}
+.form-control-borderless { font-size:11px}
+.search-css {padding:5px 5px}
+#inner-banner {height:130px;}
+.box-div-img { width:90%; margin:0 auto} 
+.srv-inf6 h2 {font-size:1.1em;}
+.about-text h3 {font-size:1.5em;}
+.reach-us p { font-size:11px;}
+.search-div h1 { font-size:20px;}
+}

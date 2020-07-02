@@ -1,0 +1,13 @@
+<input type="text">
+
+<input type="checkbox">
+
+<input type="radio">
+
+<select name='items'>
+   <option value='item1'>Item 1</option>
+   <option value='item2'>Item 2</option>
+   <option value='item3'>Item 3</option>
+</select>
+
+

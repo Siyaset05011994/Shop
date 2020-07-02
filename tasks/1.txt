@@ -1,0 +1,79 @@
+
+sabah category ve producta gore elanlarin ic sehifesine oxwar bir bootstrap 4'de yigdigim weyi qoyacam (vacib deyil)
+
+parametr elave edende hecbir category secilmesi mecbur olmasin . Yeni bir parametr eyni anda coxlu category'e aid ola
+bilsin . Category cedvelinde parameter_exists-i 1 olanlarda bir de operations yerinde 'parameter elave et' linki
+olsun . uzerine basanda hemin categorynin id'sini goturub bir viewe getsin ve orda category'nin p_id'si 0 olan category'
+nin adi slaw iwaresi , parentinin adi slaw , oz adi seklinde yuxarida gorsensin .
+Daha sonra orda statuslari 1 olan parameter adlari checkboxla cixsin . herdefe ordan secib ya da legv etmek olsun .
+daha sonra kohne usula aid harda kod varsa onu da silecem .
+
+Route::get('/{parent}/{child}'  routesinde else halina baxacam .
+
+
+category add edende migrationda ve diger lazimi yerlerde 'parameter elave etmek olsun?' bawligi altinda validation
+ terefde mecburi olmayan checkbox qoyacam . bazaya da parameter_exists kimi elave edecem ve default valuesi 0 olacaq
+ checkbox basilib gonderilirse 1 olacaq ve bir categoriyanin parameter elave etmek huququnun olub olmamasini her yerde
+ (hemcinin product elave etmek yerinde bezi if wertlerinde) ona gore yoxlayacam .
+
+category indexde dragdrop(sortable-suruwdur at) funksiyasi olsun , yerlerini deyiwdikce bazada da deyiwsin yerleri .(vacib deyil)
+
+hanssisa category yaxud parameter icinde olmali olan weyler tam insert edilmemiw o category ve parameter product elave
+etmek sehifesinde gorsenmesin . (misalcun parametri elave edirikse onun mutleq parametervalues cedvelinde value'leri
+ olmalidir . category elave edilende onun alt men yazdigim mentiqe gore 3 alt kategoriyasi ve o categoriyaya adi parameterleri
+ olmalidir , eks halda product add sehifesinde gorsenmeyecek hemin kategorya)
+
+
+parameter add validate requestinde ele yoxlayacam ki yeni parametrin categoriyasi kimi , ele bir category id'si
+oturecem ki , onun id'si category cedvelinde hecbir category'nin parent_id'si olmasin .
+daha sonra product elave edende de o cur yoxlamga caliwacam , vaxt olsa .
+
+product elave edende product value createni relation usulu ile edecem vaxt qalsa .
+
+
+1)kodlara umumi baxacam CategoryControllerdaki getSubCategories funksiyasini relationshiplerle yazacam . +
+  daha sonra gunlukevler' saytindaki coxlu wekil yukleme funksiyasini bura da elave edecem .(wekil yukleyende normalda olmali olan dizaynda duymeleri , sekilleri yanyana ve s edecem . daha sonra rotate'leri , remove'ni duzeldib sonda product add duymesini basanda baw verecek prosesleri controllerde qaydasinda edecem )
+  daha sonra bir route'de bir bootstrap dizayn edib orda trendyoldaki kimi kategoriyalari duzecem ve daha sonra
+  son kategoriyanin ustune basanda gedib kategoriyalari productlarin ->get() versiyasini return edecem test ucun .
+  daha sonra adminde bezi dizayn deyiwiklikleri edecem .
+
+
+1) products cedveline images,content fieldlerini elave edecem ve contenti tinymce textarea edecem ki ,
+icine istenilen stilli yazilar , sekiller elave etmek isteyenler etsin .
+ve product elave etmek viewine stores'i de cagiracam ki hansi magazanin adindan paylawildigi melum olsun bazada.
+
+1) formdan gelen category arrayini foreacha salib bir bir yoxlayacam hansinin id'si hansininsa parent_ids'dirse
+ve eger o id formdan gelenler icinde yoxdursa xeta cixaracam , varsa formdan gelenler icinde varsa yene yoxlayacam ki, hansinin
+parametri oldugunu yoxlayacam ve hemin categoriyanin parameterlerini getirib ona gore formdan gelen parameterleri validate
+edecem .
+1) categorya divlerine ele id vermek lazimdir ki , onu deyiwende onun child id'sine aid divi silsin (ajaxda yeniden icini
+doldurmaq ucun )
+
+1)elektronikaya bir nece child elave etdim . coxlu alt kateqoriya mentiqine gore hazirda menim js kodlarim duzgun iwlemir
+elektronikani secende onun altinda Alt kategoriyani secin basligi altinda onun id'si digerlerinin parent_id'si olan butun
+kategoriyalarin siralandigi selectbox acilacaq . mentiqi sehvi duzeldecem ve controllerde validate iwlerini de ona gore aparacam .
+elektornikani secende onun altinda acilan selextboxun id'si filan 'subCategory_elektronikanin_id_si' tipli olacaq
+
+controllerde yoxlayanda da awagidaki mentiqle edecem:
+tutaq ki id'si 1 olan elektronikani secmisem . secen kimi js terefde selectbox yaranir namesi 'subCategory_1' olur .
+controllerde yoxlayacam ki , id'si gelen option value'e , parent_id'si 1-e beraber olan category yoxdursa xeta mesaji cixaracam .
+varsa ona gore de eger varsa subcategory acilacaq ve eyni prosesler tekrarlanacaq.
+
+1) controllerde ana kategoriyani goturub onu bazadan yoxlamaliyam . xeta varsa onu sehv kimi arxaya oturmeliyem .
+qaydasindadirsa o if sertinin icinde dynamic categoriya validate kodlari yazmaliyam foreachin icinde .
+evvelce onun parent_id'sinin 0 ya digeri olmasini yoxlayacam . eger o id'i bazada hansisa categoriyanin parent_id'sidirse
+ ve html terefden o bow gelibse hemin categoriyanin id'sini ajaxda gonderib ona gore selectboxda xetalari cixaracam .
+
+1)kategoriya selectboxlarinin name'lerini bir birinden ayirmaq ucun ve alt kategoriyanin o ust kategoriyaya aid oldugunu
+controllerde validate etmek ucun js terefde alt kategoriya selectboxlarina hem en ust kategoriyanin id'si , hem de oz id'sinin
+oldugu bir name verecem ki yoxlaya bilim .
+Controllerde yoxlayacam , eger o kategoriyanin id'e gore son childesidirse duzgun qebul etsin .
+
+2) parameters cedvelinde name fieldinden sonra label fieldi yaratmisam , onu migrationda , parameters select ve add'da nezere alacam .
+
+2) product elave edende sonuncu(productun oturacagi) kategoriyani teyin etmek ucun bir en ana kategoriyanin en sonuncu id'li
+child kategoriyasini cekib ona gore validate ve diger iwleri gorecem .
+
+3) magaza strukturasini da elave edecem . product elave edende magaza giriwine gore elave edecem .
+evvelce magazaya aid fieldleri daxil edib daha sonra controllerde generasiya olunmus passwordu emaile atacam , bazaya da hash
+versiyasini yazacam .

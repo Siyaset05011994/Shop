@@ -1,0 +1,239 @@
+/*home-1*/
+body { overflow-x:hidden}
+
+.bg-none {
+	background:none!important
+}
+.box-css {
+	border:solid 5px #f3f4f9;
+	padding:30px 0;
+	cursor:pointer;
+}
+.box-css:hover {
+	border:solid 5px #e8e8e8;
+	padding:30px 0
+}
+.box {
+	width: 300px;
+	height: 460px;
+	position: relative;
+	background: rgba(255, 255, 255, 1);
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	color: #2c3e50;
+	box-shadow: inset 0 0 0 3px #2c3e50;
+	-webkit-transition: background 0.4s 0.5s;
+	transition: background 0.4s 0.5s;
+}
+.box:hover {
+	background: rgba(255, 255, 255, 0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.box h3 {
+	font-family: "Ruthie", cursive;
+	font-size: 180px;
+	line-height: 370px;
+	margin: 0;
+	font-weight: 400;
+	width: 100%;
+}
+.box span {
+	display: block;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 5px;
+}
+.box h3, .box span {
+	-webkit-transition: color 0.4s 0.5s;
+	transition: color 0.4s 0.5s;
+}
+.box:hover h3, .box:hover span {
+	color: #fff;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.box svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.box svg line {
+	stroke-width: 3;
+	stroke: #ecf0f1;
+	fill: none;
+ -webkit-transition: all .8s ease-in-out;
+ transition: all .8s ease-in-out;
+}
+.box:hover svg line {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+.box svg line.top, .box svg line.bottom {
+	stroke-dasharray: 330 240;
+}
+.box svg line.left, .box svg line.right {
+	stroke-dasharray: 490 400;
+}
+.box:hover svg line.top {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+}
+.box:hover svg line.bottom {
+	-webkit-transform: translateX(600px);
+	transform: translateX(600px);
+}
+.box:hover svg line.left {
+	-webkit-transform: translateY(920px);
+	transform: translateY(920px);
+}
+.box:hover svg line.right {
+	-webkit-transform: translateY(-920px);
+	transform: translateY(-920px);
+}
+/* Alternatives */
+
+/* Color */
+.demo-2 .box {
+	box-shadow: inset 0 0 0 10px #2c3e50;
+}
+.demo-2 .box:hover h3, .demo-2 .box:hover span {
+	color: #fe6f83;
+}
+.demo-2 .box svg line {
+	stroke-width: 8;
+}
+.demo-2 .box:hover svg line {
+	stroke: #fe6f83;
+}
+/* Frame */
+.demo-3 .box {
+	background: rgba(0, 0, 0, 0);
+	color: #fff;
+	box-shadow: none;
+	-webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+.inspiring-section {
+	background: #ebf4ff;
+	position: relative;
+	overflow: hidden;
+	padding: 65px 0px 85px;
+}
+.agent-container {
+	margin-bottom:30px;
+	background:#fff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+.agent-image-list {
+	position: relative;
+	width:50%;
+	display: table-cell;
+	vertical-align:top;
+}
+.agent-text {
+	position: relative;
+	width:50%;
+	display:table-cell;
+	padding:15px;
+	vertical-align:top;
+	background:#fff;
+	text-align:left
+}
+.agent-text h3 {
+	display: block;
+	margin-top:10px;
+	font-size: 15px;
+	line-height:24px;
+	font-weight:400
+}
+.agent-text h3 small {
+	font-size:15px;
+}
+.agent-email, .agent-web, .agent-phone {
+	font-size:12px; margin:5px 0 5px 0
+}
+
+.agent-text h3 { margin:0; padding:0;}
+
+.agent-text h3 a  {
+    font-size:18px; font-weight:600;
+    color:#004dda;
+    margin-bottom: 25px;  margin:0 0 15px 0
+}
+
+
+.agent-text h3 small {
+display: block; border-top: 1px solid #e5e5e5;
+font-size: 16px;
+color: #656565;
+line-height: 1.75;
+color: #484848; margin:0;     padding: 10px 0 10px 0;
+}
+
+.property-container:hover, .property-container:focus, .agent-container:hover, .agent-container:focus, .agency-container:hover, .agency-container:focus {
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+ 
+.round-div {
+	left:0;
+	right:0;
+	margin:0 auto;
+	width:70px;
+}
+.box-bg p {
+	text-align:center
+}
+.box-bg h5 {
+	text-align:center
+}
+.box-bg h6 {
+	text-align:center
+}
+.testimonial2 {
+	background: url(../images/page/page-bg.jpg) no-repeat center center fixed !important;
+	min-height:484px;
+	padding: 58px 0 0px;
+	background-size:100% 100%
+}
+.testimonial2 h2 {
+	color:#fff;
+	margin: 0 0 50px 0!important;
+}
+.testimonial2 .page-heading:after {
+	background:#fff;
+}
+.category {
+	background:#f9f9f9;
+	position: relative;
+	overflow:hidden;
+	padding: 65px 0px 50px;
+}
+.box-modern {
+	position:relative;
+	width:100%;
+	padding:30px;
+	border:5px solid #ededef;
+	cursor:pointer;
+}
+.box-modern::before {
+content:'';
+position:absolute;
+top:-5px;
+bottom:-5px;
+left:-5px;
+right:-5px;
+border:5px solid #0c4ed8;
+transform:scale(1.2);
+opacity:0;
+transition:.3s cubic-bezier(0, .43, .6, 1.24) all;
+pointer-events:none
+}
+.box-modern:hover::before {
+opacity:1;
+transform:scale(1)}
+
+/*home-1*/

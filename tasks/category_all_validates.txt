@@ -1,0 +1,9 @@
+Yusifden soruwacam , eger vacibdirse edecem .
+1)gelen category namesinin eyni zamanda olub olmadigini ve  count($category)==3 oldugunu yoxlayacam .
+2) daha sonra foreachin icine salib eyni zamanda  her birinin bow olub olmamasini ve bazada olub olmadigini yoxlayacam .
+3) eger herwey qaydasindadirsa eyni zamanda awagidakilarin dogrulugunu yoxlamaliyam .
+      category[0]-in parent_id'sinin 0-a beraber oldugunu ,
+      where('parent_id',category[0])->where('id',category[1])->where('status',1) count-nun 0dan boyuk olmasini ,
+      category[2]-nin hecbir categoriyanin parent_id'si olmadigini deqiqlewdirmeliyem .
+
+      artiq herseyin qaydasinda oldugundan emin olandan sonra parametrlerle bagli iwi gorecem .

@@ -1,0 +1,9 @@
+.testimonial .owl-item { padding:40px 0 0 0!important}
+.box-bg .rounded-circle {border:0!important}
+
+@media(min-width:1024px){
+.owl-theme .owl-nav.disabled+.owl-dots {
+margin-top: 10px;position: absolute;right:-5%!important;top: 40%!important;}
+.owl-theme .owl-dots .owl-dot {display:block!important;zoom: 1;}
+}
+
